@@ -1,6 +1,6 @@
 //Задача 1. Improve the caching decorator
 function cachingDecoratorNew(func) {
-    // Ваш код
+    
     let cache = [];
   
     function wrapper(...rest) {
@@ -29,7 +29,7 @@ function cachingDecoratorNew(func) {
   
   //Задача 2. Debounce 
   function debounceDecoratorNew(func, ms) {
-    // Ваш код
+      
     let timeout;
     let firstCall = true;
   
@@ -51,7 +51,7 @@ function cachingDecoratorNew(func) {
   
   //Задача 3. Improve debounceDecoratorNew
   function debounceDecorator2(func, ms) {
-      // Ваш код
+      
       let timeout;
       let firstCall = true;
   
